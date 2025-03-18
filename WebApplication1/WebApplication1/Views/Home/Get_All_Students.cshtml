@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "All Students Information";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<WebApplication1.Models.Students_Info>
+
+<h2 class="text-center">@ViewBag.Message</h2>
+
+<div class="d-flex justify-content-center" >
+    <table class="table table-striped text-center w-50">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var info in Model)
+            {
+                <tr>
+                    <td>@info.Id</td>
+                    <td>@info.Name</td>
+                    <td>@info.Year</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+

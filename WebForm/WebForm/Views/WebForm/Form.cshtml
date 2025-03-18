@@ -1,0 +1,130 @@
+﻿
+@{
+    ViewBag.Title = "Form";
+}
+
+<h2>Form</h2>
+
+<form method="post">
+    <label name="name">Name: </label>
+    <input name="name" type="text" />
+
+    <br />
+
+    <label name="email">Email: </label>
+    <input name="email" type="email" />
+
+    <br />
+
+    <label name="gender">Gender: </label>
+    <input name="gender" type="radio" value="Male" /> Male
+    <input name="gender" type="radio" value="Female" /> Female
+
+    <br />
+
+    <label name="country">Country: </label>
+    <select name="country">
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="USA">USA</option>
+    </select>
+
+    <br />
+
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+</form>
+
+<div class="d-xl-inline-flex">
+    <div>
+        <h2>Data Fetched using FormCollection</h2>
+        <table>
+            <tr>
+                <td>Name: </td>
+                <td>@ViewBag.name</td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td>@ViewBag.email</td>
+            </tr>
+            <tr>
+                <td>Gender: </td>
+                <td>@ViewBag.gender</td>
+            </tr>
+            <tr>
+                <td>Country: </td>
+                <td>@ViewBag.country</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div>
+        <h2>Data Fetched using HttpRequest</h2>
+        <table>
+            <tr>
+                <td>Name: </td>
+                <td>@Request["name"]</td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td>@Request["email"]</td>
+            </tr>
+            <tr>
+                <td>Gender: </td>
+                <td>@Request["gender"]</td>
+            </tr>
+            <tr>
+                <td>Country: </td>
+                <td>@Request["country"]</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h2>Data Fetched using Model Binding</h2>
+        <table>
+            <tr>
+                <td>Name: </td>
+                <td>@Model.name</td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td>@Model.email</td>
+            </tr>
+            <tr>
+                <td>Gender: </td>
+                <td>@Model.gender</td>
+            </tr>
+            <tr>
+                <td>Country: </td>
+                <td>@Model.country</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h2>Data Fetched by Variable name mapping</h2>
+        <table>
+            <tr>
+                <td>Name: </td>
+                <td>@ViewBag.name</td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td>@ViewBag.email</td>
+            </tr>
+            <tr>
+                <td>Gender: </td>
+                <td>@ViewBag.gender</td>
+            </tr>
+            <tr>
+                <td>Country: </td>
+                <td>@ViewBag.country</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+
+

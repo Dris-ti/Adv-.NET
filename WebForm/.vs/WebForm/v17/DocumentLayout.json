@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET\\WebForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F686E28-D95D-48B0-93BD-34015918690E}|WebForm\\WebForm.csproj|d:\\.net\\webform\\webform\\views\\webform\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F686E28-D95D-48B0-93BD-34015918690E}|WebForm\\WebForm.csproj|solutionrelative:webform\\views\\webform\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F686E28-D95D-48B0-93BD-34015918690E}|WebForm\\WebForm.csproj|d:\\.net\\webform\\webform\\controllers\\webformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F686E28-D95D-48B0-93BD-34015918690E}|WebForm\\WebForm.csproj|solutionrelative:webform\\controllers\\webformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F686E28-D95D-48B0-93BD-34015918690E}|WebForm\\WebForm.csproj|d:\\.net\\webform\\webform\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F686E28-D95D-48B0-93BD-34015918690E}|WebForm\\WebForm.csproj|solutionrelative:webform\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F686E28-D95D-48B0-93BD-34015918690E}|WebForm\\WebForm.csproj|d:\\.net\\webform\\webform\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F686E28-D95D-48B0-93BD-34015918690E}|WebForm\\WebForm.csproj|solutionrelative:webform\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\.NET\\WebForm\\WebForm\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WebForm\\Models\\User.cs",
+              "ToolTip": "D:\\.NET\\WebForm\\WebForm\\Models\\User.cs",
+              "RelativeToolTip": "WebForm\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T17:01:47.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "D:\\.NET\\WebForm\\WebForm\\Views\\WebForm\\Form.cshtml",
+              "RelativeDocumentMoniker": "WebForm\\Views\\WebForm\\Form.cshtml",
+              "ToolTip": "D:\\.NET\\WebForm\\WebForm\\Views\\WebForm\\Form.cshtml",
+              "RelativeToolTip": "WebForm\\Views\\WebForm\\Form.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T16:43:09.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\.NET\\WebForm\\WebForm\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "WebForm\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\.NET\\WebForm\\WebForm\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "WebForm\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T16:42:11.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebFormController.cs",
+              "DocumentMoniker": "D:\\.NET\\WebForm\\WebForm\\Controllers\\WebFormController.cs",
+              "RelativeDocumentMoniker": "WebForm\\Controllers\\WebFormController.cs",
+              "ToolTip": "D:\\.NET\\WebForm\\WebForm\\Controllers\\WebFormController.cs",
+              "RelativeToolTip": "WebForm\\Controllers\\WebFormController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA6wCsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T16:41:55.203Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

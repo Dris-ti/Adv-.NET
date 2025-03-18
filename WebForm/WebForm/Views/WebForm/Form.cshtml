@@ -7,26 +7,55 @@
 
 <form method="post">
     <label name="name">Name: </label>
-    <input name="name" type="text" />
+    <input name="name" type="text" value="@Model.name"/>
+    <small class="text-danger">@Html.ValidationMessage("name")</small>
 
     <br />
 
     <label name="email">Email: </label>
-    <input name="email" type="email" />
+    <input name="email" type="email"  value="@Model.email"/>
+    <small class="text-danger">@Html.ValidationMessage("email")</small>
 
     <br />
 
     <label name="gender">Gender: </label>
-    <input name="gender" type="radio" value="Male" /> Male
-    <input name="gender" type="radio" value="Female" /> Female
+    <input name="gender" type="radio" value="Male" 
+           @{ 
+               if(Model.gender == "Male")
+                {
+                   @:checked;
+                }
+           }
+
+           /> Male
+    <input name="gender" type="radio" value="Female" 
+           @{ 
+                if(Model.gender == "Female")
+                 {
+                     @:checked;
+                 }
+            }
+           /> Female
+    <small class="text-danger">@Html.ValidationMessage("gender")</small>
 
     <br />
 
     <label name="country">Country: </label>
     <select name="country">
-        <option value="Bangladesh">Bangladesh</option>
-        <option value="USA">USA</option>
+        <option value="Bangladesh"
+                @if(Model.country == "Bangladesh")
+                {
+                    @:selected;
+                }
+                >Bangladesh</option>
+        <option value="USA"
+               @if(Model.country == "USA")
+                {
+                    @:selected;
+                } 
+                >USA</option>
     </select>
+    <small class="text-danger">@Html.ValidationMessage("country")</small>
 
     <br />
 

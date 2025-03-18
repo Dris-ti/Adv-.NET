@@ -43,8 +43,7 @@ namespace WebForm.Controllers
             ViewBag.gender = gender;
             ViewBag.country = country;
 
-
-
+        
             //using Model binding
             return View(u);
         }

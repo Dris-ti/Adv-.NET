@@ -1,0 +1,65 @@
+﻿@model Task2_WebForm.Models.Student
+@{
+    ViewBag.Title = "Form";
+}
+
+<h2>Form</h2>
+
+<form method="post">
+    <table>
+        <tr>
+            <td>
+                <label name="name">Name: </label>
+            </td>
+            <td>
+                <input name="name" type="text" value="@Model.name" />
+            </td>
+            <td>
+                <small class="text-danger">@Html.ValidationMessage("name")</small>
+            </td>
+        </tr>
+        
+
+        <tr>
+            <td>
+                <label name="id">ID: </label>
+            </td>
+            <td>
+                <input name="id" type="text" value="@Model.id" />
+            </td>
+            <td>
+                <small class="text-danger">@Html.ValidationMessage("id")</small>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label name="DoB">DoB: </label>
+            </td>
+            <td>
+                <input name="DoB" type="date" value="@Model.DoB.ToString("yyyy-MM-dd")" />
+            </td>
+            <td>
+                <small class="text-danger">@Html.ValidationMessage("DoB")</small>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label name="email">Email: </label>
+            </td>
+            <td>
+                <input name="email" type="email" value="@Model.email" />
+            </td>
+            <td>
+                <small class="text-danger">@Html.ValidationMessage("email")</small>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Submit" />
+            </td>       
+        </tr>
+    </table>
+</form>
+

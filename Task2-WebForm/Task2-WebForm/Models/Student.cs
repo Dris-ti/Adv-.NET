@@ -17,6 +17,8 @@ namespace Task2_WebForm.Models
         [Required]
         [CustomDoBValidation]
         public DateTime DoB { get; set; }
+        [Required]
+        [CustomEmailValidation]       
         public string email { get; set; }
     }
 }

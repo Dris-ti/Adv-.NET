@@ -9,7 +9,7 @@ namespace Task2_WebForm.Controllers
 {
     public class StudentController : Controller
     {
-        // GET: Srudent
+        // GET: Student
         public ActionResult Index()
         {
             return View();

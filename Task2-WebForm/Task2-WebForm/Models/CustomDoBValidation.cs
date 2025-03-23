@@ -10,9 +10,12 @@ namespace Task2_WebForm.Models
 {
 	public class CustomDoBValidation: ValidationAttribute
     {
-
         public override bool IsValid(object value)
         {
+            if(value.Equals(default(DateTime)))
+            {
+                return false;
+            }
             var DoB = (DateTime)value;
             var diff = DateTime.Now.Year - DoB.Year;
             if (diff > 18) {

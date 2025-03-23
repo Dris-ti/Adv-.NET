@@ -18,7 +18,7 @@
                 <small class="text-danger">@Html.ValidationMessage("name")</small>
             </td>
         </tr>
-        
+
 
         <tr>
             <td>
@@ -58,8 +58,59 @@
         <tr>
             <td>
                 <input type="submit" value="Submit" />
-            </td>       
+            </td>
         </tr>
     </table>
 </form>
+
+@{
+    var formValidity = ViewData.ModelState.IsValid
+                      && Model != null
+                      && !string.IsNullOrWhiteSpace(Model.name)
+                      && !string.IsNullOrWhiteSpace(Model.id)
+                      && !string.IsNullOrWhiteSpace(Model.email)
+                      && Model.DoB != default(DateTime);
+    if (formValidity)
+    {
+        <div>
+            <h3>Form Values</h3>
+            <table>
+                <tr>
+                    <td>
+                        Name:
+                    </td>
+                    <td>
+                        @Model.name
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ID:
+                    </td>
+                    <td>
+                        @Model.id
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        DoB:
+                    </td>
+                    <td>
+                        @Model.DoB.ToString("yyyy-MM-dd")
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email:
+                    </td>
+                    <td>
+                        @Model.email
+                    </td>
+            </table>
+        </div>
+    }
+}
+
+
+
 

@@ -16,6 +16,8 @@ namespace WebForm.Models
         public string gender { get; set; }
         [Required]
         public string country { get; set; }
+        [Required]
+        public string[] hobbies { get; set; }
 
     }
 }

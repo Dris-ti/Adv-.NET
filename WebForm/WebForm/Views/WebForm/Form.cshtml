@@ -3,156 +3,241 @@
     ViewBag.Title = "Form";
 }
 
+@{ 
+    bool checkGender(string gender)
+    {
+        if (Model.gender != null && Model.gender.Equals(gender))
+        {
+            return true;
+        }
+        return false;
+    }
+
+    bool checkHobbies(string hobby)
+    {
+        if (Model.hobbies != null)
+        {
+            foreach (var h in Model.hobbies)
+            {
+                if (h.Equals(hobby))
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    bool checkCountry(string country)
+    {
+        if (Model.country != null && Model.country.Equals(country))
+        {
+            return true;
+        }
+        return false;
+    }
+
+    void btnReset()
+    {
+        Model.name = null;
+        Model.email = null;
+        Model.country = null;
+        Model.gender = null;
+        Model.hobbies = null;
+        Model.isValid = false;
+    }
+}
+
 <h2>Form</h2>
 
 <form method="post">
-    <label name="name">Name: </label>
-    <input name="name" type="text" value="@Model.name"/>
+    <label for="name">Name: </label>
+    <input id="name" name="name" type="text" value="@Model.name" />
     <small class="text-danger">@Html.ValidationMessage("name")</small>
 
     <br />
 
-    <label name="email">Email: </label>
-    <input name="email" type="email"  value="@Model.email"/>
+    <label for="email">Email: </label>
+    <input id="email" name="email" type="email" value="@Model.email" />
     <small class="text-danger">@Html.ValidationMessage("email")</small>
 
     <br />
 
-    <label name="gender">Gender: </label>
-    <input name="gender" type="radio" value="Male" 
-           @{ 
-               if(Model.gender == "Male")
-                {
-                   @:checked;
-                }
-           }
-
-           /> Male
-    <input name="gender" type="radio" value="Female" 
-           @{ 
-                if(Model.gender == "Female")
-                 {
-                     @:checked;
-                 }
-            }
-           /> Female
+    Gender:
+    <input id="male" name="gender" type="radio" value="Male" checked="@checkGender("Male")" />
+    <label for="male">Male</label>
+    <input id="female" name="gender" type="radio" value="Female" checked="@checkGender("Female")" />
+    <label for="female">Female</label>
     <small class="text-danger">@Html.ValidationMessage("gender")</small>
 
     <br />
 
-    <label name="country">Country: </label>
-    <select name="country">
-        <option value="Bangladesh"
-                @if(Model.country == "Bangladesh")
-                {
-                    @:selected;
-                }
-                >Bangladesh</option>
-        <option value="USA"
-               @if(Model.country == "USA")
-                {
-                    @:selected;
-                } 
-                >USA</option>
+    Country:
+    <select id="country" name="country">
+        <option disabled selected>--Select--</option>
+        <option value="Bangladesh" selected="@checkCountry("Bangladesh")"> Bangladesh</option>
+        <option value="USA" selected="@checkCountry("USA")">USA</option>
     </select>
     <small class="text-danger">@Html.ValidationMessage("country")</small>
 
     <br />
 
-    <button type="reset">Reset</button>
+    Hobbies: <small class="text-danger">@Html.ValidationMessage("hobbies")</small>
+    <br />
+    <input id="sleeping" type="checkbox" name="hobbies[]" value="Sleeping" checked="@checkHobbies("Sleeping")" />
+    <label for="sleeping">Sleeping</label>
+    <br />
+    <input id="coding" type="checkbox" name="hobbies[]" value="Coding" checked="@checkHobbies("Coding")" />
+    <label for="coding">Coding</label>
+    <br />
+    <input id="travelling" type="checkbox" name="hobbies[]" value="Travelling" checked="@checkHobbies("Travelling")" />
+    <label for="travelling">Travelling</label>
+
+    <br />
+
+    <button type="reset" onclick="btnReset()">Reset</button>
     <button type="submit">Submit</button>
 </form>
 
-<div class="d-xl-inline-flex">
-    <div>
-        <h2>Data Fetched using FormCollection</h2>
-        <table>
-            <tr>
-                <td>Name: </td>
-                <td>@ViewBag.name</td>
-            </tr>
-            <tr>
-                <td>Email: </td>
-                <td>@ViewBag.email</td>
-            </tr>
-            <tr>
-                <td>Gender: </td>
-                <td>@ViewBag.gender</td>
-            </tr>
-            <tr>
-                <td>Country: </td>
-                <td>@ViewBag.country</td>
-            </tr>
-        </table>
-    </div>
+@{ 
+    bool formValidity = ViewData.ModelState.IsValid && Model.name != null && Model.email != null && Model.gender != null && Model.country != null && Model.hobbies != null;
+
+    if (formValidity)
+    {
+    <div class="d-xl-inline-flex">
+        <div>
+            <h2>Data Fetched using FormCollection</h2>
+            <table>
+                <tr>
+                    <td>Name: </td>
+                    <td>@ViewBag.name</td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td>@ViewBag.email</td>
+                </tr>
+                <tr>
+                    <td>Gender: </td>
+                    <td>@ViewBag.gender</td>
+                </tr>
+                <tr>
+                    <td>Country: </td>
+                    <td>@ViewBag.country</td>
+                </tr>
+                <tr>
+                    <td>Hobbies: </td>
+                    <td>
+                        @foreach (var h in ViewBag.hobbies)
+                        {
+                            <span>@h ,</span>
+                        }
+                    </td>                 
+                </tr>
+            </table>
+        </div>
 
 
-    <div>
-        <h2>Data Fetched using HttpRequest</h2>
-        <table>
-            <tr>
-                <td>Name: </td>
-                <td>@Request["name"]</td>
-            </tr>
-            <tr>
-                <td>Email: </td>
-                <td>@Request["email"]</td>
-            </tr>
-            <tr>
-                <td>Gender: </td>
-                <td>@Request["gender"]</td>
-            </tr>
-            <tr>
-                <td>Country: </td>
-                <td>@Request["country"]</td>
-            </tr>
-        </table>
-    </div>
+        <div>
+            <h2>Data Fetched using HttpRequest</h2>
+            <table>
+                <tr>
+                    <td>Name: </td>
+                    <td>@Request["name"]</td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td>@Request["email"]</td>
+                </tr>
+                <tr>
+                    <td>Gender: </td>
+                    <td>@Request["gender"]</td>
+                </tr>
+                <tr>
+                    <td>Country: </td>
+                    <td>@Request["country"]</td>
+                </tr>
+                <tr>
+                    <td>Hobbies: </td>
+                    <td>
+                        @{
+                            var hobbiesList = Request.Form.GetValues("hobbies[]");
+                            foreach (var h in hobbiesList)
+                            {
+                                <span>@h, </span>
+                            }
+                        }
+                    </td>
+                </tr>
+            </table>
+        </div>
 
-    <div>
-        <h2>Data Fetched using Model Binding</h2>
-        <table>
-            <tr>
-                <td>Name: </td>
-                <td>@Model.name</td>
-            </tr>
-            <tr>
-                <td>Email: </td>
-                <td>@Model.email</td>
-            </tr>
-            <tr>
-                <td>Gender: </td>
-                <td>@Model.gender</td>
-            </tr>
-            <tr>
-                <td>Country: </td>
-                <td>@Model.country</td>
-            </tr>
-        </table>
-    </div>
+        <div>
+            <h2>Data Fetched using Model Binding</h2>
+            <table>
+                <tr>
+                    <td>Name: </td>
+                    <td>@Model.name</td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td>@Model.email</td>
+                </tr>
+                <tr>
+                    <td>Gender: </td>
+                    <td>@Model.gender</td>
+                </tr>
+                <tr>
+                    <td>Country: </td>
+                    <td>@Model.country</td>
+                </tr>
+                <tr>
+                    <td>Hobbies: </td>
+                    <td>
+                        @foreach (var h in Model.hobbies)
+                        {
+                            <span>@h ,</span>
+                        }
+                    </td>
+                </tr>
+            </table>
+        </div>
 
-    <div>
-        <h2>Data Fetched by Variable name mapping</h2>
-        <table>
-            <tr>
-                <td>Name: </td>
-                <td>@ViewBag.name</td>
-            </tr>
-            <tr>
-                <td>Email: </td>
-                <td>@ViewBag.email</td>
-            </tr>
-            <tr>
-                <td>Gender: </td>
-                <td>@ViewBag.gender</td>
-            </tr>
-            <tr>
-                <td>Country: </td>
-                <td>@ViewBag.country</td>
-            </tr>
-        </table>
+        <div>
+            <h2>Data Fetched by Variable name mapping</h2>
+            <table>
+                <tr>
+                    <td>Name: </td>
+                    <td>@ViewBag.name</td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td>@ViewBag.email</td>
+                </tr>
+                <tr>
+                    <td>Gender: </td>
+                    <td>@ViewBag.gender</td>
+                </tr>
+                <tr>
+                    <td>Country: </td>
+                    <td>@ViewBag.country</td>
+                </tr>
+                <tr>
+                    <td>Hobbies: </td>
+                    <td>
+                        @foreach (var h in ViewBag.hobbies)
+                        {
+                            <span>@h ,</span>
+                        }
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
-</div>
+        }
+    }
+
+
+
 
 
 

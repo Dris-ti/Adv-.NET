@@ -38,8 +38,7 @@
               "RelativeToolTip": "WebForm\\Models\\User.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T17:01:47.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T17:01:47.249Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "WebForm\\Views\\WebForm\\Form.cshtml",
               "ToolTip": "D:\\.NET\\WebForm\\WebForm\\Views\\WebForm\\Form.cshtml",
               "RelativeToolTip": "WebForm\\Views\\WebForm\\Form.cshtml",
-              "ViewState": "AgIAAGkAAAAAAAAAAAA0wKYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-18T16:43:09.879Z",
               "EditorCaption": ""
@@ -76,8 +75,7 @@
               "RelativeToolTip": "WebForm\\Controllers\\WebFormController.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwCcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T16:41:55.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T16:41:55.203Z"
             }
           ]
         },

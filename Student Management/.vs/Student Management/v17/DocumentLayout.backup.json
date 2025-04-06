@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET\\Student Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{106F2C06-C4FB-4A1D-8897-14910989D5FC}|Student Management\\Student Management.csproj|d:\\.net\\student management\\student management\\views\\student\\allstudents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{106F2C06-C4FB-4A1D-8897-14910989D5FC}|Student Management\\Student Management.csproj|solutionrelative:student management\\views\\student\\allstudents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F2C06-C4FB-4A1D-8897-14910989D5FC}|Student Management\\Student Management.csproj|d:\\.net\\student management\\student management\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{106F2C06-C4FB-4A1D-8897-14910989D5FC}|Student Management\\Student Management.csproj|solutionrelative:student management\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F2C06-C4FB-4A1D-8897-14910989D5FC}|Student Management\\Student Management.csproj|D:\\.NET\\Student Management\\student management\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F2C06-C4FB-4A1D-8897-14910989D5FC}|Student Management\\Student Management.csproj|solutionrelative:student management\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F2C06-C4FB-4A1D-8897-14910989D5FC}|Student Management\\Student Management.csproj|d:\\.net\\student management\\student management\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F2C06-C4FB-4A1D-8897-14910989D5FC}|Student Management\\Student Management.csproj|solutionrelative:student management\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F2C06-C4FB-4A1D-8897-14910989D5FC}|Student Management\\Student Management.csproj|D:\\.NET\\Student Management\\student management\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{106F2C06-C4FB-4A1D-8897-14910989D5FC}|Student Management\\Student Management.csproj|solutionrelative:student management\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F2C06-C4FB-4A1D-8897-14910989D5FC}|Student Management\\Student Management.csproj|D:\\.NET\\Student Management\\student management\\ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F2C06-C4FB-4A1D-8897-14910989D5FC}|Student Management\\Student Management.csproj|solutionrelative:student management\\ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F2C06-C4FB-4A1D-8897-14910989D5FC}|Student Management\\Student Management.csproj|D:\\.NET\\Student Management\\student management\\ef\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F2C06-C4FB-4A1D-8897-14910989D5FC}|Student Management\\Student Management.csproj|solutionrelative:student management\\ef\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 292,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\.NET\\Student Management\\Student Management\\EF\\Student.cs",
+              "RelativeDocumentMoniker": "Student Management\\EF\\Student.cs",
+              "ToolTip": "D:\\.NET\\Student Management\\Student Management\\EF\\Student.cs",
+              "RelativeToolTip": "Student Management\\EF\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T06:23:17.885Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\.NET\\Student Management\\Student Management\\EF\\Department.cs",
+              "RelativeDocumentMoniker": "Student Management\\EF\\Department.cs",
+              "ToolTip": "D:\\.NET\\Student Management\\Student Management\\EF\\Department.cs",
+              "RelativeToolTip": "Student Management\\EF\\Department.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T06:23:12.998Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\.NET\\Student Management\\Student Management\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Student Management\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\.NET\\Student Management\\Student Management\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Student Management\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAwEwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T09:32:59.815Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\.NET\\Student Management\\Student Management\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Student Management\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\.NET\\Student Management\\Student Management\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Student Management\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T16:04:05.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Student Management\\Student Management\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Student Management\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "D:\\.NET\\Student Management\\Student Management\\Views\\Student\\Edit.cshtml*",
+              "RelativeToolTip": "Student Management\\Views\\Student\\Edit.cshtml*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T14:03:51.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddStudent.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Student Management\\Student Management\\Views\\Student\\AddStudent.cshtml",
+              "RelativeDocumentMoniker": "Student Management\\Views\\Student\\AddStudent.cshtml",
+              "ToolTip": "D:\\.NET\\Student Management\\Student Management\\Views\\Student\\AddStudent.cshtml",
+              "RelativeToolTip": "Student Management\\Views\\Student\\AddStudent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T06:42:31.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AllStudents.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Student Management\\Student Management\\Views\\Student\\AllStudents.cshtml",
+              "RelativeDocumentMoniker": "Student Management\\Views\\Student\\AllStudents.cshtml",
+              "ToolTip": "D:\\.NET\\Student Management\\Student Management\\Views\\Student\\AllStudents.cshtml",
+              "RelativeToolTip": "Student Management\\Views\\Student\\AllStudents.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T09:34:43.498Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 90,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

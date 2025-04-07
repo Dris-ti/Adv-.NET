@@ -10,18 +10,19 @@ namespace Student_Management.Controllers
 {
     public class StudentController : Controller
     {
-        Adv_Dot_NetEntities2 db = new Adv_Dot_NetEntities2();
+        Adv_Dot_NetEntities5 db = new Adv_Dot_NetEntities5();
         // GET: Student
         [HttpGet]
         public ActionResult AllStudents()
         {
-            var students = db.Students.ToList();
+            var students = db.Students.Include("Department").ToList();
             return View(students);
         }
         [HttpGet]
         public ActionResult AddStudent()
         {
-            return View();
+            var departments = db.Departments.ToList();
+            return View(departments);
         }
         [HttpPost]
         public ActionResult AddStudent(Student s)
@@ -51,7 +52,7 @@ namespace Student_Management.Controllers
             var db_s = db.Students.Find(s.Id);
             db_s.Name = s.Name;
             db_s.DoB = s.DoB;
-            db_s.Department = s.Department;
+            db_s.Department_ID = s.Department_ID;
             db_s.Cgpa = s.Cgpa;
             var row = db.SaveChanges();
             if (row > 0)
@@ -65,14 +66,6 @@ namespace Student_Management.Controllers
                 return View(s);
             }
         }
-
-        //[HttpGet]
-        //public ActionResult Delete(int id)
-        //{
-
-        //    var student = db.Students.Find(id);
-        //    return View(student);
-        //}
 
         [HttpPost]
         public ActionResult Delete(int id)

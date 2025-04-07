@@ -151,6 +151,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>StudentManagement.edmx</DependentUpon>
     </Compile>
+    <Compile Include="EF\sysdiagram.cs">
+      <DependentUpon>StudentManagement.tt</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

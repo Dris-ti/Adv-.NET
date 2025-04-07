@@ -12,14 +12,12 @@ namespace Student_Management.EF
     using System;
     using System.Collections.Generic;
     
-    public partial class Student
+    public partial class sysdiagram
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public System.DateTime DoB { get; set; }
-        public int Department_ID { get; set; }
-        public double Cgpa { get; set; }
-    
-        public virtual Department Department { get; set; }
+        public string name { get; set; }
+        public int principal_id { get; set; }
+        public int diagram_id { get; set; }
+        public Nullable<int> version { get; set; }
+        public byte[] definition { get; set; }
     }
 }

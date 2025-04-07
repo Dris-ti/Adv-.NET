@@ -13,10 +13,10 @@ namespace Student_Management.EF
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Adv_Dot_NetEntities2 : DbContext
+    public partial class Adv_Dot_NetEntities5 : DbContext
     {
-        public Adv_Dot_NetEntities2()
-            : base("name=Adv_Dot_NetEntities2")
+        public Adv_Dot_NetEntities5()
+            : base("name=Adv_Dot_NetEntities5")
         {
         }
     
@@ -27,5 +27,6 @@ namespace Student_Management.EF
     
         public virtual DbSet<Department> Departments { get; set; }
         public virtual DbSet<Student> Students { get; set; }
+        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
     }
 }

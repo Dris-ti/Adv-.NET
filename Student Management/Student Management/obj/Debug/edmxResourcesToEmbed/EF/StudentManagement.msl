@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="Adv_Dot_NetModelStoreContainer" CdmEntityContainer="Adv_Dot_NetEntities2">
+  <EntityContainerMapping StorageEntityContainer="Adv_Dot_NetModelStoreContainer" CdmEntityContainer="Adv_Dot_NetEntities5">
     <EntitySetMapping Name="Departments">
       <EntityTypeMapping TypeName="Adv_Dot_NetModel.Department">
         <MappingFragment StoreEntitySet="Departments">
@@ -15,8 +15,19 @@
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="DoB" ColumnName="DoB" />
-          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="Department_ID" ColumnName="Department_ID" />
           <ScalarProperty Name="Cgpa" ColumnName="Cgpa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Adv_Dot_NetModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

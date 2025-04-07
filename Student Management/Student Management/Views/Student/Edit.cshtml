@@ -9,7 +9,7 @@
 @{
     bool checkDepartment(int d)
     {
-        if (Model.Department != null && Model.Department.Equals(d))
+        if (Model.Department_ID != null && Model.Department_ID.Equals(d))
         {
             return true;
         }
@@ -34,8 +34,8 @@
 
     <br />
 
-    <label class="form-label" for="Department">Department: </label>
-    <select id="Department" name="Department" class="form-control" required>
+    <label class="form-label" for="Department_ID">Department: </label>
+    <select id="Department_ID" name="Department_ID" class="form-control" required>
         <option value="" disabled selected>Select Department</option>
         <option selected="@checkDepartment(1)" value="1">CSE</option>
         <option selected="@checkDepartment(2)" value="2">BBA</option>

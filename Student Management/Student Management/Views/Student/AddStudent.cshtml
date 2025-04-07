@@ -16,14 +16,25 @@
 
     <br />
 
-    <label class="form-label" for="Department">Department: </label>
-    <select id="Department" name="Department" class="form-control" required>
+    <label class="form-label" for="Department_ID">Department: </label>
+    @*<select id="Department" name="Department" class="form-control" required>
         <option value="" disabled selected>Select Department</option>
         <option value="1">CSE</option>
         <option value="2">BBA</option>
         <option value="3">EEE</option>
         <option value="4">English</option>
         <option value="5">IPE</option>
+    </select>*@
+
+    <select id="Department_ID" name="Department_ID" class="form-control" required>
+        <option value="" disabled selected>Select Department</option>
+        @{
+            foreach (var d in Model)
+            {
+                <option id="@d.Id" value="@d.Id">@d.Title</option>
+            }
+        }
+
     </select>
 
     <br />
@@ -37,16 +48,7 @@
 
 
 
-    @*<select id="Department" name="Department" class="form-control" required>
-            <option value="" disabled selected>Select Department</option>
-            @{
-                foreach (var d in Model)
-                {
-                    <option id="@d.Id">@d.Name</option>
-                }
-            }
 
-        </select>*@
 
 
 

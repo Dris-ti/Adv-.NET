@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>All Departments</h2>
+<a href="/Department/CreateDept" class="btn btn-primary">Add Dept</a>
+<a href="/Student/Index" class="btn btn-primary">Go to Student Page</a>
+@{
+    if (TempData["Msg"] != null)
+            {
+    <p class="alert alert-success" >@TempData["Msg"]</p>
+            }
+}
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var department in Model)
+    {
+        <tr>
+            <td>@department.Id</td>
+            <td>@department.Title</td>
+            <td>
+                <a class="btn btn-outline-primary" href="/Department/EditDept/@department.Id">Edit</a>
+                <form method="post" action="/Department/DeleteDept/@department.Id">
+                    <input type="submit" class="btn btn-outline-danger" name="@department.Id" id="@department.Id" value="Delete"
+                           onclick="return confirm('Do you want to delete @department.Title department?');"/>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+

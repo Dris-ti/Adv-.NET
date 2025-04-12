@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "D:\\.NET\\Lab1-Studenet_Dept_Management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management.csproj|d:\\.net\\lab1-studenet_dept_management\\lab1-studenet_dept_management\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management.csproj|solutionrelative:lab1-studenet_dept_management\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management.csproj|D:\\.NET\\Lab1-Studenet_Dept_Management\\lab1-studenet_dept_management\\views\\student\\createstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management.csproj|solutionrelative:lab1-studenet_dept_management\\views\\student\\createstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management.csproj|D:\\.NET\\Lab1-Studenet_Dept_Management\\lab1-studenet_dept_management\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management.csproj|solutionrelative:lab1-studenet_dept_management\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management.csproj|D:\\.NET\\Lab1-Studenet_Dept_Management\\lab1-studenet_dept_management\\views\\department\\createdept.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management.csproj|solutionrelative:lab1-studenet_dept_management\\views\\department\\createdept.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management.csproj|D:\\.NET\\Lab1-Studenet_Dept_Management\\lab1-studenet_dept_management\\ef\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management.csproj|solutionrelative:lab1-studenet_dept_management\\ef\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management.csproj|D:\\.NET\\Lab1-Studenet_Dept_Management\\lab1-studenet_dept_management\\ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management.csproj|solutionrelative:lab1-studenet_dept_management\\ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management.csproj|D:\\.NET\\Lab1-Studenet_Dept_Management\\lab1-studenet_dept_management\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management.csproj|solutionrelative:lab1-studenet_dept_management\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Student_Dept_Management.csproj|d:\\.net\\lab1-studenet_dept_management\\lab1-studenet_dept_management\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DBCE189-DB6A-4F0E-8784-6764AD3253FA}|Lab1-Studenet_Dept_Management\\Lab1-Student_Dept_Management.csproj|solutionrelative:lab1-studenet_dept_management\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 337,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,87 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Department.cs",
-              "DocumentMoniker": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\EF\\Department.cs",
-              "RelativeDocumentMoniker": "Lab1-Studenet_Dept_Management\\EF\\Department.cs",
-              "ToolTip": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\EF\\Department.cs",
-              "RelativeToolTip": "Lab1-Studenet_Dept_Management\\EF\\Department.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T18:20:54.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\EF\\Student.cs",
-              "RelativeDocumentMoniker": "Lab1-Studenet_Dept_Management\\EF\\Student.cs",
-              "ToolTip": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\EF\\Student.cs",
-              "RelativeToolTip": "Lab1-Studenet_Dept_Management\\EF\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T18:20:42.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateDept.cshtml",
-              "DocumentMoniker": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\Views\\Department\\CreateDept.cshtml",
-              "RelativeDocumentMoniker": "Lab1-Studenet_Dept_Management\\Views\\Department\\CreateDept.cshtml",
-              "ToolTip": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\Views\\Department\\CreateDept.cshtml",
-              "RelativeToolTip": "Lab1-Studenet_Dept_Management\\Views\\Department\\CreateDept.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T17:48:57.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateStudent.cshtml",
-              "DocumentMoniker": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\Views\\Student\\CreateStudent.cshtml",
-              "RelativeDocumentMoniker": "Lab1-Studenet_Dept_Management\\Views\\Student\\CreateStudent.cshtml",
-              "ToolTip": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\Views\\Student\\CreateStudent.cshtml",
-              "RelativeToolTip": "Lab1-Studenet_Dept_Management\\Views\\Student\\CreateStudent.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T17:48:43.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "Lab1-Studenet_Dept_Management\\Controllers\\DepartmentController.cs",
-              "ToolTip": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "Lab1-Studenet_Dept_Management\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T17:48:26.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\Views\\Student\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lab1-Studenet_Dept_Management\\Views\\Student\\Index.cshtml",
-              "ToolTip": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\Views\\Student\\Index.cshtml",
-              "RelativeToolTip": "Lab1-Studenet_Dept_Management\\Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T17:38:54.452Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "Lab1-Studenet_Dept_Management\\Controllers\\StudentController.cs",
-              "ToolTip": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "Lab1-Studenet_Dept_Management\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T05:07:47.074Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab1-Studenet_Dept_Management\\Views\\Department\\Index.cshtml",
+              "ToolTip": "D:\\.NET\\Lab1-Studenet_Dept_Management\\Lab1-Studenet_Dept_Management\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "Lab1-Studenet_Dept_Management\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T16:52:33.818Z",
               "EditorCaption": ""
             }
           ]

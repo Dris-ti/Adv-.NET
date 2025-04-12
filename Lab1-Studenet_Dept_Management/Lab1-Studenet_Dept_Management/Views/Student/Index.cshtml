@@ -6,7 +6,9 @@
 <h2>All Students</h2>
 
 <a href="/Student/CreateStudent" class="btn btn-primary">Add Student</a>
-<a href="/Department/Index" class="btn btn-primary">Go to Department Page</a>
+<a href="/Student/Scholarships" class="btn btn-secondary">Scholarship students</a>
+<a href="/Student/Probation" class="btn btn-danger">Probation students</a>
+<a href="/Department/Index" class="btn btn-dark">Go to Department Page</a>
 @{
     if (TempData["Msg"] != null)
     {
@@ -21,6 +23,7 @@
         <th>Name</th>
         <th>Cgpa</th>
         <th>Department</th>
+        <th>Action</th>
     </tr>
     @foreach (var student in Model)
     {
@@ -29,13 +32,13 @@
             <td>@student.Name</td>
             <td>@student.Cgpa</td>
             <td>@student.Department.Title</td>
-            @*<td>
+            <td>
                 <a class="btn btn-outline-primary" href="/Student/EditStudent/@student.Id">Edit</a>
-                <form method="post" action="/Student/DeleteDept/@student.Id">
+                <form method="post" action="/Student/DeleteStudent/@student.Id">
                     <input type="submit" class="btn btn-outline-danger" name="@student.Id" id="@student.Id" value="Delete"
-                           onclick="return confirm('Do you want to delete @student.Title department?');" />
+                           onclick="return confirm('Do you want to delete @student.Name?');" />
                 </form>
-            </td>*@
+            </td>
         </tr>
     }
 </table>

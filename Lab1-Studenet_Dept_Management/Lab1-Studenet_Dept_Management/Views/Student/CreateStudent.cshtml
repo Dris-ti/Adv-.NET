@@ -14,21 +14,21 @@
 
     <label class="col-form-label-sm" for="Deperment" name="Deperment">Deperment:</label>
 
-        <select class="form-control form-select" id="Department" name="Department">
-            <option value="" selected disabled>Select a Department</option>
-            @{ 
-                foreach (var d in Model)
-                {
-                        <option id="@d.Id" name="@d.Id"value="@d.Id">@d.Title</option>
-                }
-            }    
-        </select>
-
-        <button class="btn btn-primary" type="submit">Add</button>
-
+    <select class="form-control form-select" id="D_Id" name="D_Id">
+        <option value="" selected disabled>Select a Department</option>
+        @{
+            foreach (var d in Model)
+            {
+                <option value="@d.Id">@d.Title</option>
+            }
+        }
+    </select>
     <br />
     <br />
     <button class="btn btn-primary" type="submit">Add</button>
     <a class="btn btn-secondary" href="/Department/Index">Cancel</a>
+
+
+
 </form>
 

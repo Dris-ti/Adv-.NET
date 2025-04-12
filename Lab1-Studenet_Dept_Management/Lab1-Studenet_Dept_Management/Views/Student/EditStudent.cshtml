@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "EditStudent";
+}
+
+<h2>EditStudent</h2>
+
+@{
+    bool checkDept(int id)
+    {
+        if (Model.D_Id == id)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+}
+
+
+<form method="post">
+    <input class="form-control form-text" id="Id" name="Id" type="hidden" value="@Model.Id" required />
+
+    <label class="col-form-label-sm" for="Name" name="Name">Name:</label>
+    <input class="form-control form-text" id="Name" name="Name" type="text" value="@Model.Name" required />
+
+    <label class="col-form-label-sm" for="Cgpa" name="Cgpa">Cgpa:</label>
+    <input class="form-control form-text" id="Cgpa" name="Cgpa" type="number" value="@Model.Cgpa" step="0.01" min="0" max="4" required />
+
+    <label class="col-form-label-sm" for="Deperment" name="Deperment">Deperment:</label>
+
+    <select class="form-control form-select" id="D_Id" name="D_Id">
+        <option value="" selected disabled>Select a Department</option>
+        @{
+            foreach (var d in ViewBag.Dept)
+            {
+                <option selected="@checkDept(d.Id)" value="@d.Id">@d.Title</option>
+            }
+        }
+    </select>
+    <br />
+    <br />
+    <button class="btn btn-primary" type="submit">Save</button>
+    <a class="btn btn-secondary" href="/Student/Index">Cancel</a>
+
+
+
+</form>
+

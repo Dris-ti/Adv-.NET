@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Probation";
+}
+
+<h2>Probation</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Cgpa</th>
+        <th>Department</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var student in Model)
+    {
+        <tr>
+            <td>@student.Id</td>
+            <td>@student.Name</td>
+            <td>@student.Cgpa</td>
+            <td>@student.Department.Title</td>
+
+        </tr>
+    }
+    <tr>
+        <td colspan="5" class="text-center">
+            <a class="btn btn-primary" href="/Student/Index">Go to Student Page</a>
+        </td>
+</table>
+

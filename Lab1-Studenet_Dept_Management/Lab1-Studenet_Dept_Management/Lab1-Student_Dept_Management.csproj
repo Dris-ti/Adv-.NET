@@ -230,6 +230,9 @@
     <Content Include="Views\Department\EditDept.cshtml" />
     <Content Include="Views\Student\Index.cshtml" />
     <Content Include="Views\Student\CreateStudent.cshtml" />
+    <Content Include="Views\Student\EditStudent.cshtml" />
+    <Content Include="Views\Student\Scholarships.cshtml" />
+    <Content Include="Views\Student\Probation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

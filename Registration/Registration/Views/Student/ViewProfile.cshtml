@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "ViewProfile";
+}
+
+<h2>Your Profile</h2>
+
+@{
+    if (TempData["Msg"] != null)
+    {
+        <div class="alert alert-info">
+            @TempData["Msg"]
+        </div>
+    }
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>CGPA</th>
+    </tr>
+
+    <tr>
+        <td>@Model.Id</td>
+        <td>@Model.Name</td>
+        <td>@Model.Cgpa</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/Student/Edit/@Model.Id" class="btn btn-danger">Edit</a>
+        </td>
+        <td>
+            <a href="/Registration/Index/@Model.Id" class="btn btn-success">Go to Registration</a>
+        </td>
+    </tr>
+
+</table>
+
+
+

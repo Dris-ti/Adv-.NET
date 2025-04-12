@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Register for Courses</h2>
+
+@{
+    if (TempData["Msg"] != null)
+    {
+        <div class="alert alert-info">
+            @TempData["Msg"]
+        </div>
+    }
+}
+
+@{
+    bool HasCourse(int cId)
+    {
+        foreach (var c in ViewBag.CourseStudents)
+        {
+            if (c.Course_Id == cId)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+}
+
+
+<form method="post">
+    <ul>
+        @{
+            foreach (var c in Model)
+            {
+                <li>
+                    <input checked="@HasCourse(c.Id)" type="checkbox" value="@c.Id" name="Courses[]" id="@c.Id" />
+                    <label for="@c.Id">@c.Name</label>
+                    <span>[@c.CourseStudents.Count/@c.MaxCapacity]</span>
+                </li>
+            }
+        }
+    </ul>
+    <input class="btn btn-primary" type="submit" value="Save" />
+    <a class="btn btn-secondary" href="/Student/ViewProfile/@Session["Student_ID"]">Cancel</a>
+
+</form>
+

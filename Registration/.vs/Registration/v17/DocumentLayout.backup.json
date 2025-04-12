@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET\\Registration\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68E7B8FA-32B0-461E-A93A-8A8451C90E6D}|Registration\\Registration.csproj|d:\\.net\\registration\\registration\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E7B8FA-32B0-461E-A93A-8A8451C90E6D}|Registration\\Registration.csproj|solutionrelative:registration\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E7B8FA-32B0-461E-A93A-8A8451C90E6D}|Registration\\Registration.csproj|d:\\.net\\registration\\registration\\views\\student\\viewprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68E7B8FA-32B0-461E-A93A-8A8451C90E6D}|Registration\\Registration.csproj|solutionrelative:registration\\views\\student\\viewprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E7B8FA-32B0-461E-A93A-8A8451C90E6D}|Registration\\Registration.csproj|d:\\.net\\registration\\registration\\views\\registration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68E7B8FA-32B0-461E-A93A-8A8451C90E6D}|Registration\\Registration.csproj|solutionrelative:registration\\views\\registration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E7B8FA-32B0-461E-A93A-8A8451C90E6D}|Registration\\Registration.csproj|D:\\.NET\\Registration\\registration\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68E7B8FA-32B0-461E-A93A-8A8451C90E6D}|Registration\\Registration.csproj|solutionrelative:registration\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E7B8FA-32B0-461E-A93A-8A8451C90E6D}|Registration\\Registration.csproj|D:\\.NET\\Registration\\registration\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E7B8FA-32B0-461E-A93A-8A8451C90E6D}|Registration\\Registration.csproj|solutionrelative:registration\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E7B8FA-32B0-461E-A93A-8A8451C90E6D}|Registration\\Registration.csproj|d:\\.net\\registration\\registration\\ef\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E7B8FA-32B0-461E-A93A-8A8451C90E6D}|Registration\\Registration.csproj|solutionrelative:registration\\ef\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E7B8FA-32B0-461E-A93A-8A8451C90E6D}|Registration\\Registration.csproj|d:\\.net\\registration\\registration\\ef\\coursestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E7B8FA-32B0-461E-A93A-8A8451C90E6D}|Registration\\Registration.csproj|solutionrelative:registration\\ef\\coursestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 337,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 45,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewProfile.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Registration\\Registration\\Views\\Student\\ViewProfile.cshtml",
+              "RelativeDocumentMoniker": "Registration\\Views\\Student\\ViewProfile.cshtml",
+              "ToolTip": "D:\\.NET\\Registration\\Registration\\Views\\Student\\ViewProfile.cshtml",
+              "RelativeToolTip": "Registration\\Views\\Student\\ViewProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T18:15:58.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "D:\\.NET\\Registration\\Registration\\EF\\Registration.cs",
+              "RelativeDocumentMoniker": "Registration\\EF\\Registration.cs",
+              "ToolTip": "D:\\.NET\\Registration\\Registration\\EF\\Registration.cs",
+              "RelativeToolTip": "Registration\\EF\\Registration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T17:46:25.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CourseStudent.cs",
+              "DocumentMoniker": "D:\\.NET\\Registration\\Registration\\EF\\CourseStudent.cs",
+              "RelativeDocumentMoniker": "Registration\\EF\\CourseStudent.cs",
+              "ToolTip": "D:\\.NET\\Registration\\Registration\\EF\\CourseStudent.cs",
+              "RelativeToolTip": "Registration\\EF\\CourseStudent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T17:44:58.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Registration\\Registration\\Views\\Registration\\Index.cshtml",
+              "RelativeDocumentMoniker": "Registration\\Views\\Registration\\Index.cshtml",
+              "ToolTip": "D:\\.NET\\Registration\\Registration\\Views\\Registration\\Index.cshtml",
+              "RelativeToolTip": "Registration\\Views\\Registration\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T17:31:11.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "D:\\.NET\\Registration\\Registration\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "Registration\\Controllers\\RegistrationController.cs",
+              "ToolTip": "D:\\.NET\\Registration\\Registration\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "Registration\\Controllers\\RegistrationController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAkwI8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T06:54:17.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Registration\\Registration\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Registration\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\.NET\\Registration\\Registration\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Registration\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T05:36:49.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\.NET\\Registration\\Registration\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Registration\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\.NET\\Registration\\Registration\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Registration\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T05:35:23.889Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

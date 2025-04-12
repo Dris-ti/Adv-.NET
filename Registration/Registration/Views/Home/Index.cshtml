@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Login</h2>
+
+@{
+    if (TempData["Msg"] != null)
+    {
+        <div class="alert alert-info">
+            @TempData["Msg"]
+        </div>
+    }
+}
+
+
+
+<form method="post">
+    <label class="form-label" for="Id" id="Id">ID:</label>
+    <input class="form-control form-text" id="Id" name="Id" type="number" />
+
+    <br />
+    <button class="btn btn-primary" type="submit">Log In</button>
+</form>
